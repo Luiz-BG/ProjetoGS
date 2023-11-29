@@ -61,6 +61,7 @@ https://bit.ly/3dAGcx5
 npm install -g react-native-cli
 ```
 6- Para instalar um emulador android, faça o passo a passo recomendado oficialmente
+
 https://docs.expo.dev/workflow/android-studio-emulator/
 
 <p align="right">(<a href="#readme-top">Topo</a>)</p>

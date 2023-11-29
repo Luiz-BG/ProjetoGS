@@ -17,9 +17,11 @@ O MaasApp é um App desenvolvido com React Native. Esse aplicativo auxilia cidad
 
 1. React Native
 <p align="right">(<a href="#readme-top">Topo</a>)</p>
+
 ## 👨🏼‍💻Responsável pelo projeto
 Luiz Eduardo Brito Gomes **RM: _89304_**
 <p align="right">(<a href="#readme-top">Topo</a>)</p>
+
 ## ⚙️Instalação e utilização
 
 ## Técnicas de gerenciamento de memória

@@ -29,13 +29,17 @@ Luiz Eduardo Brito Gomes **RM: _89304_**
 - [x] Gerenciamento de estado de componente
     - O aplicativo utiliza o gancho useState do React para gerenciar o estado da lista de tarefas e os itens de tarefa individuais. Essa abordagem garante que apenas os componentes necessários sejam renderizados novamente quando o estado mudar, minimizando rerenderizações desnecessárias e uso de memória.
       
-    - Estruturas de dados imutáveis: o aplicativo utiliza estruturas de dados imutáveis, especificamente matrizes, para representar a lista de tarefas e itens de tarefas individuais. Estruturas de dados imutáveis ​​evitam mutações acidentais de estado, o que pode levar a vazamentos de memória.
+- [x] Estruturas de dados imutáveis
+     - O aplicativo utiliza estruturas de dados imutáveis, especificamente matrizes, para representar a lista de tarefas e itens de tarefas individuais. Estruturas de dados imutáveis ​​evitam mutações acidentais de estado, o que pode levar a vazamentos de memória.
 
-    - Limpeza de memória: a função completeTask remove o item de tarefa concluído da lista de tarefas, separando-o da matriz. Isso garante que a memória ocupada pelo item de tarefa concluído seja liberada.
+- [x] Limpeza de memória
+     -A função completeTask remove o item de tarefa concluído da lista de tarefas, separando-o da matriz. Isso garante que a memória ocupada pelo item de tarefa concluído seja liberada.
 
-    -Visualização para evitar teclado: o componente KeyboardAvoidingView envolve o campo de entrada e o botão de adição, garantindo que os componentes da IU não sejam obscurecidos pelo teclado quando ele for aberto. Isso evita a necessidade de novas renderizações e uso de memória desnecessários.
+- [x] Visualização para evitar teclado
+      -O componente KeyboardAvoidingView envolve o campo de entrada e o botão de adição, garantindo que os componentes da IU não sejam obscurecidos pelo teclado quando ele for aberto. Isso evita a necessidade de novas renderizações e uso de memória desnecessários.
 
-     -Métodos de ciclo de vida: o aplicativo utiliza métodos de ciclo de vida do React, como componentDidMount e componentWillUnmount, para executar quaisquer tarefas de limpeza ou ouvintes de eventos necessários. Isso garante que os recursos sejam liberados adequadamente quando os componentes forem desmontados.
+- [x] Métodos de ciclo de vida
+      -O aplicativo utiliza métodos de ciclo de vida do React, como componentDidMount e componentWillUnmount, para executar quaisquer tarefas de limpeza ou ouvintes de eventos necessários. Isso garante que os recursos sejam liberados adequadamente quando os componentes forem desmontados.
 
 
 ```sh

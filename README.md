@@ -22,17 +22,18 @@ O MaasApp é um App desenvolvido com React Native. Esse aplicativo auxilia cidad
 Luiz Eduardo Brito Gomes **RM: _89304_**
 <p align="right">(<a href="#readme-top">Topo</a>)</p>
 
-## ⚙️Instalação e utilização
-
 ## Técnicas de gerenciamento de memória
 
 - [x] Gerenciamento de estado de componente
+      
     - O aplicativo utiliza o gancho useState do React para gerenciar o estado da lista de tarefas e os itens de tarefa individuais. Essa abordagem garante que apenas os componentes necessários sejam renderizados novamente quando o estado mudar, minimizando rerenderizações desnecessárias e uso de memória.
       
 - [x] Estruturas de dados imutáveis
+      
      - O aplicativo utiliza estruturas de dados imutáveis, especificamente matrizes, para representar a lista de tarefas e itens de tarefas individuais. Estruturas de dados imutáveis ​​evitam mutações acidentais de estado, o que pode levar a vazamentos de memória.
 
 - [x] Limpeza de memória
+      
      - A função completeTask remove o item de tarefa concluído da lista de tarefas, separando-o da matriz. Isso garante que a memória ocupada pelo item de tarefa concluído seja liberada.
 
 - [x] Visualização para evitar teclado
@@ -41,6 +42,7 @@ Luiz Eduardo Brito Gomes **RM: _89304_**
 - [x] Métodos de ciclo de vida
       - O aplicativo utiliza métodos de ciclo de vida do React, como componentDidMount e componentWillUnmount, para executar quaisquer tarefas de limpeza ou ouvintes de eventos necessários. Isso garante que os recursos sejam liberados adequadamente quando os componentes forem desmontados.
 
+## ⚙️Instalação e utilização
 
 ```sh
 1- Execute os seguintes comandos no CMD de seu computador

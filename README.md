@@ -43,23 +43,29 @@ Luiz Eduardo Brito Gomes **RM: _89304_**
 
 ## ⚙️Instalação e utilização
 
-```sh
+
 1- Execute os seguintes comandos no CMD de seu computador
+```sh
 Get-ExecutionPolicy
 Set-ExecutionPolicy Bypass -Scope Process -Force
 Iex((New-ObjectSystem.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol =
 [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 2- Execute este também para instalar o node
+```sh
 choco install -y nodejs.install jdk8
+```
 3- Instale o Android Studio
 https://bit.ly/3dAGcx5
 4- Crie uma variável android no seu sistema
 5- Insira mais este comando para completar
+```sh
 npm install -g react-native-cli
+```
 6- Para instalar um emulador android, faça o passo a passo recomendado oficialmente
 https://docs.expo.dev/workflow/android-studio-emulator/
-```
+
 <p align="right">(<a href="#readme-top">Topo</a>)</p>
 
 ## ✏️Feedback

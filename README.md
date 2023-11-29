@@ -32,9 +32,6 @@ Luiz Eduardo Brito Gomes **RM: _89304_**
       
      - O aplicativo utiliza estruturas de dados imutáveis, especificamente matrizes, para representar a lista de tarefas e itens de tarefas individuais. Estruturas de dados imutáveis ​​evitam mutações acidentais de estado, o que pode levar a vazamentos de memória.
 
-- [x] Limpeza de memória
-      - A função completeTask remove o item de tarefa concluído da lista de tarefas, separando-o da matriz. Isso garante que a memória ocupada pelo item de tarefa concluído seja liberada.
-
 - [x] Visualização para evitar teclado
       - O componente KeyboardAvoidingView envolve o campo de entrada e o botão de adição, garantindo que os componentes da IU não sejam obscurecidos pelo teclado quando ele for aberto. Isso evita a necessidade de novas renderizações e uso de memória desnecessários.
 

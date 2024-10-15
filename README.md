@@ -6,7 +6,7 @@ O App Global Solution é um aplicativo criado com o objetivo de facilitar a assi
 
 ## 📲Conteúdo
 
-O MaasApp é um App desenvolvido com React Native. Esse aplicativo auxilia cidadões em registrar atividade física feitas pelo usuário durante o dia inteiro. O objetivo princiapl desse app é proporcionar um registro de atividades físicas para pessoas sem acesso à relógios inteligentes de corrida
+O MaasApp é um App desenvolvido com React Native. Esse aplicativo auxilia cidadões em registrar atividade física feitas pelo usuário durante o dia inteiro. O objetivo principal desse app é proporcionar um registro de atividades físicas para pessoas sem acesso à relógios inteligentes de corrida
 
 ## 💻Funcionalidades do Projeto
 
@@ -18,8 +18,12 @@ O MaasApp é um App desenvolvido com React Native. Esse aplicativo auxilia cidad
 1. React Native
 <p align="right">(<a href="#readme-top">Topo</a>)</p>
 
-## 👨🏼‍💻Responsável pelo projeto
-Luiz Eduardo Brito Gomes **RM: _89304_**
+## 👨🏼‍💻Responsável(is) pelo projeto
+1. Cândido Alfredo Carvalho de Lucena Filho *RM: 85414*
+2. Leonardo de Souza Fernandes *RM: 89221*
+3. Renan Bernardes Bonfim *RM: 88087*
+4. Patrick Deric Formica Coimbra Rabello *RM: 88729*
+5. Luiz Eduardo Brito Gomes *RM: 89304*
 <p align="right">(<a href="#readme-top">Topo</a>)</p>
 
 ## Técnicas de gerenciamento de memória
@@ -42,9 +46,6 @@ Luiz Eduardo Brito Gomes **RM: _89304_**
 
    Para começar, basta baixar o aplicativo e seguir as instruções. Para abrir o aplicativo rode o arquivo app.js
    
-
-
-
 <p align="right">(<a href="#readme-top">Topo</a>)</p>
 
 ## ✏️Feedback
